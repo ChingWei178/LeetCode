@@ -1,6 +1,6 @@
 bool cmp(const vector<int>&a, const vector<int>&b) {
-        return a[1] < b[1];
-    }
+    return a[1] < b[1];
+}
 
 class Solution {
 public:
@@ -15,10 +15,9 @@ public:
             }
             else 
                 finish_time = (*iter)[1];
-        }
-        
+        } 
         return count;
     }
 };
 
-// time complexity bound at sorting => O(nlgn), space complexity = O(1)
+// time complexity bounds at sorting => O(nlgn), space complexity = O(1)
